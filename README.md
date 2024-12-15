@@ -3,21 +3,22 @@ Structured content for silly ChatGPT text-adventure game
 
 ```
 .
-├── README.md
+├── [README.md](./README.md)
 ├── characters
-│   ├── frey-and-party.md
-│   ├── gatz-inventory.md
-│   └── gatz.md
-├── combat-rules.md
+│   ├── [frey-and-party.md](./characters/frey-and-party.md)
+│   ├── [gatz-inventory.md](./characters/gatz-inventory.md)
+│   └── [gatz.md](./characters/gatz.md)
+├── [combat-rules.md](./combat-rules.md)
 └── world-building
     ├── factions
-    │   ├── patrol.md
-    │   ├── the-syndicate.md
-    │   └── the-veil.md
+    │   ├── [patrol.md](./world-building/factions/patrol.md)
+    │   ├── [the-syndicate.md](./world-building/factions/the-syndicate.md)
+    │   └── [the-veil.md](./world-building/factions/the-veil.md)
     ├── locations
-    │   ├── coldspire.md
-    │   └── eryndell.md
-    └── readme.md
+    │   ├── [coldspire.md](./world-building/locations/coldspire.md)
+    │   └── [eryndell.md](./world-building/locations/eryndell.md)
+    └── [readme.md](./world-building/readme.md)
+
 ```
 
 ---
