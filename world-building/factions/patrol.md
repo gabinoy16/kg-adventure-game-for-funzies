@@ -1,5 +1,23 @@
 # The Local Patrol Within Cities: A Summary
 
+## Table of Contents
+1. [Key Features of the Patrol](#key-features-of-the-patrol)
+   - [Autonomy and Purpose](#autonomy-and-purpose)
+   - [Diverse Composition](#diverse-composition)
+   - [Ranking and Identification](#ranking-and-identification)
+2. [Patrol Across Different Cities](#patrol-across-different-cities)
+   - [Eryndell](#eryndell)
+   - [Merrowyn](#merrowyn)
+   - [Shadewood](#shadewood)
+   - [Greymarch](#greymarch)
+   - [Coldspire Region (Rare or New Presence)](#coldspire-region-rare-or-new-presence)
+3. [General Responsibilities of the Patrol](#general-responsibilities-of-the-patrol)
+   - [Local Protection](#local-protection)
+   - [Training and Recruitment](#training-and-recruitment)
+   - [Investigation and Intelligence](#investigation-and-intelligence)
+   - [Expeditionary Missions](#expeditionary-missions)
+4. [Gatz’s Relationship with the Patrol](#gatzs-relationship-with-the-patrol)
+
 ---
 
 ## **Key Features of the Patrol**
