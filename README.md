@@ -1,6 +1,7 @@
 # kg-avdenture-game-for-funzies
 Structured content for silly ChatGPT text-adventure game
 
+```
 .
 ├── README.md
 ├── characters
@@ -17,7 +18,7 @@ Structured content for silly ChatGPT text-adventure game
     │   ├── coldspire.md
     │   └── eryndell.md
     └── readme.md
-
+```
 
 ---
 
