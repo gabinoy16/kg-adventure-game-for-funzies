@@ -1,24 +1,29 @@
 # kg-avdenture-game-for-funzies
 Structured content for silly ChatGPT text-adventure game
 
-```
-.
-├── [README.md](./README.md)
-├── characters
-│   ├── [frey-and-party.md](./characters/frey-and-party.md)
-│   ├── [gatz-inventory.md](./characters/gatz-inventory.md)
-│   └── [gatz.md](./characters/gatz.md)
-├── [combat-rules.md](./combat-rules.md)
-└── world-building
-    ├── factions
-    │   ├── [patrol.md](./world-building/factions/patrol.md)
-    │   ├── [the-syndicate.md](./world-building/factions/the-syndicate.md)
-    │   └── [the-veil.md](./world-building/factions/the-veil.md)
-    ├── locations
-    │   ├── [coldspire.md](./world-building/locations/coldspire.md)
-    │   └── [eryndell.md](./world-building/locations/eryndell.md)
-    └── [readme.md](./world-building/readme.md)
+```markdown
+Use the links below to navigate through the repository.
 
+## **Characters**
+- [Frey and Party](characters/frey-and-party.md)
+- [Gatz Inventory](characters/gatz-inventory.md)
+- [Gatz Profile](characters/gatz.md)
+
+## **Combat Rules**
+- [Combat Rules](combat-rules.md)
+
+## **World-Building**
+### **Factions**
+- [The Patrol](world-building/factions/patrol.md)
+- [The Syndicate](world-building/factions/the-syndicate.md)
+- [The Veil](world-building/factions/the-veil.md)
+
+### **Locations**
+- [Coldspire](world-building/locations/coldspire.md)
+- [Eryndell](world-building/locations/eryndell.md)
+
+### **Additional World-Building**
+- [World-Building Overview](world-building/readme.md)
 ```
 
 ---
