@@ -11,11 +11,11 @@
    - [Dampener Notes](#dampener-notes)
 3. [Title: Vanguard of the Aegis](#title-vanguard-of-the-aegis)
    - [Passive Skill: "Legendary Aura: Unshakable Presence"](#passive-skill-legendary-aura-unshakable-presence)
-4. [Lore](#lore)
-   - [The True Mark of a Vanguard: The Aura of the Summit](#1-the-true-mark-of-a-vanguard-the-aura-of-the-summit)
-   - [The Shard: An Artifact with Limits](#2-the-shard-an-artifact-with-limits)
-   - [The Unseen Markings](#3-the-unseen-markings)
-   - [A Vanguard’s Magical Presence](#4-a-vanguards-magical-presence)
+   - [Lore](#lore)
+      - [The True Mark of a Vanguard: The Aura of the Summit](#1-the-true-mark-of-a-vanguard-the-aura-of-the-summit)
+      - [The Shard: An Artifact with Limits](#2-the-shard-an-artifact-with-limits)
+      - [The Unseen Markings](#3-the-unseen-markings)
+      - [A Vanguard’s Magical Presence](#4-a-vanguards-magical-presence)
 
 ## Current True Skill Levels and Dampened Levels
 
