@@ -1,6 +1,24 @@
 # kg-avdenture-game-for-funzies
 Structured content for silly ChatGPT text-adventure game
 
+.
+├── README.md
+├── characters
+│   ├── frey-and-party.md
+│   ├── gatz-inventory.md
+│   └── gatz.md
+├── combat-rules.md
+└── world-building
+    ├── factions
+    │   ├── patrol.md
+    │   ├── the-syndicate.md
+    │   └── the-veil.md
+    ├── locations
+    │   ├── coldspire.md
+    │   └── eryndell.md
+    └── readme.md
+
+
 ---
 
 # Template Instructions for Updating Pages
