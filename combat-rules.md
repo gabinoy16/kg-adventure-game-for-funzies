@@ -4,7 +4,7 @@ v1.3
 ## Table of Contents
 - [Mastery Level Modifiers](#mastery-level-modifiers)
 - [Rolling for Offense and Defense](#rolling-for-offense-and-defense)
-- [Fatigue and Stamina](#fatigue-and-stamina)
+- [Fatigue and Stamina Calculation](#fatigue-and-stamina-calculation)
 - [Damage Calculation](#damage-calculation)
 - [Stability Rolls](#stability-rolls)
 - [Types of Attacks](#types-of-attacks)
@@ -62,13 +62,11 @@ Combat actions involve opposed rolls:
 
 ---
 
-## Fatigue and Stamina
+## Fatigue and Stamina Calculation
 
 ### Stamina Formula
 
-Based on endurance mastery level:
-
-**Stamina = 10 × (Mastery Index)^2**
+Based on endurance mastery level: `Stamina = 10 × (Mastery Index)^2`
 
 ### Mastery Index Values
 
@@ -81,6 +79,8 @@ Based on endurance mastery level:
 | Expert             | 5                 |
 | Elite              | 6                 |
 | Master             | 7                 |
+
+For example, if a character has "Adept" Endurance skill mastery, their mastery index would be 3, and their stamina is calculated as `10 * (3)^2 = 90` 
 
 ### Stamina Impact
 
