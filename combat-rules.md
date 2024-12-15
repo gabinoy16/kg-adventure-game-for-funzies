@@ -1,20 +1,29 @@
-# Combat Rules 
-v1.3
+## Combat Rules v1.3 Table of Contents
+1. [Mastery Level Modifiers](#mastery-level-modifiers)
+2. [Rolling for Offense and Defense](#rolling-for-offense-and-defense)
+3. [Fatigue and Stamina Calculation](#fatigue-and-stamina-calculation)
+4. [Damage Calculation](#damage-calculation)
+5. [Stability Rolls](#stability-rolls)
+6. [Types of Attacks](#types-of-attacks)
+7. [Types of Defense](#types-of-defense)
+8. [Winning Conditions](#winning-conditions)
+9. [Combat Flow v1.2](#combat-flow-v12)
 
-## Table of Contents
-- [Mastery Level Modifiers](#mastery-level-modifiers)
-- [Rolling for Offense and Defense](#rolling-for-offense-and-defense)
-- [Fatigue and Stamina Calculation](#fatigue-and-stamina-calculation)
-- [Damage Calculation](#damage-calculation)
-- [Stability Rolls](#stability-rolls)
-- [Types of Attacks](#types-of-attacks)
-- [Types of Defense](#types-of-defense)
-- [Winning Conditions](#winning-conditions)
-- [Combat Flow v1.1](#combat-flow-v11)
-- [Combat Round Template](#combat-round-template)
-- [Combat Round Example](#combat-round-example)
+## Combat Flow v1.2 Table of Contents
+1. [Initiative](#1-initiative)
+2. [Declare Actions](#2-declare-actions)
+3. [Check for Advantage](#3-check-for-advantage)
+4. [Roll for Action](#4-roll-for-action)
+5. [Compare Results and Determine Outcome](#5-compare-results-and-determine-outcome)
+6. [Apply Stamina Costs](#6-apply-stamina-costs)
+7. [Check for New Advantage](#7-check-for-new-advantage)
+8. [Stability Check (If Stamina Reaches 0)](#8-stability-check-if-stamina-reaches-0)
+9. [Apply Status Effects and Narrate](#9-apply-status-effects-and-narrate)
+10. [Next Combatant](#10-next-combatant)
 
 ---
+
+# Combat Rules v1.3
 
 ## Mastery Level Modifiers
 
@@ -48,7 +57,7 @@ Combat actions involve opposed rolls:
 - **Attack Blocked**: If defense roll ≥ attack roll.
   - *Example*: Attacker rolls 14; defender rolls 16. Attack blocked.
 
-### Critical Advantage/Disadvantage
+### Critical, Advantage and Disadvantage
 
 - If defense roll exceeds attack roll by 10+, the defender gains advantage on their next offensive roll (counterattack opening).
 - If attack roll exceeds defense roll by 10+, the attacker gains advantage on their next attack.
@@ -156,121 +165,162 @@ Combat ends when:
 
 ---
 
-## Combat Flow v1.1
+# Combat Flow v1.2
 
-### Initiative
+### **1. Initiative**
+- Roll `1d20` for all participants to determine combat order.
+- Resolve ties using:
+  - Higher relevant mastery level (e.g., Speed or Tactical Combat).
+  - Secondary `1d20` roll if mastery is equal.
+- Calculate initial stamina (fatigue capacity) using the stamina formula.
 
-- **Roll Initiative**:
-  - Roll 1d20 for all participants to determine the combat order.
-  - Resolve ties using:
-    - Higher relevant mastery level (e.g., Speed or Tactical Combat).
-    - Secondary d20 roll if mastery is equal.
-- **Calculate Initial Stamina (Fatigue Capacity)**:
-  - Use the stamina formula from "Combat Rules."
+---
 
-### Declare Actions
+### **2. Declare Actions**
+- At the start of a combatant's turn, they declare their intended action:
+  - **Offensive Actions**: Specify attack type.
+  - **Defensive Actions**: Prepare to block or dodge an anticipated attack.
+  - **Special Actions**: Cast a spell, activate an ability, or perform non-standard moves.
 
-At the start of a turn, the acting character declares their intended action:
+---
 
-- **Offensive Actions**:
-  - Specify attack type.
-- **Defensive Actions**:
-  - Prepare to block or dodge an anticipated attack.
-- **Special Actions**:
-  - Cast a spell, activate an ability, or perform non-standard moves.
+### **3. Check for Advantage**
+- Before rolling, determine if **advantage** applies:
+  - Refer to Combat Rules [Rolling for Offense and Defense](#rolling-for-offense-and-defense) on what creates advantage or disadvantage
+  - If advantage applies, roll twice and take the higher result.
 
-### Roll for Action
+---
 
-- **Offense**: Roll 1d20 + Offense Modifier(s).
-- **Defense**: Roll 1d20 + Defense Modifier(s).
+### **4. Roll for Action**
+- **Offense**: Roll `1d20 + Offense Modifier(s)` (with advantage if applicable).
+- **Defense**: Roll `1d20 + Defense Modifier(s)` (with advantage if applicable).
 - **Special Actions**: Roll as determined by the nature of the action (e.g., a spell might require a specific roll type).
 
-### Compare Results
+---
 
+### **5. Compare Results and Determine Outcome**
 - Compare offensive and defensive rolls:
-  - **Attack Hits**: If attack roll > defense roll.
-  - **Attack Blocked**: If defense roll ≥ attack roll.
-  - Calculate damage based on the roll difference and attack type.
+  - **Attack Hits**: If `attack roll > defense roll`.
+  - **Attack Blocked**: If `defense roll ≥ attack roll`.
+- Calculate damage based on:
+  - The roll difference (Glancing, Solid, or Critical Damage).
+  - The chosen attack type.
+- Update stamina for the defender if damage is dealt.
 
-### Apply Stamina Costs
+---
 
-- **Attack Type Costs** (as defined in Combat Rules).
-- **Defensive Costs** (as defined in Combat Rules).
-- **Special Action Costs**: As dictated by the specific nature of the action.
-
-### Exhaustion Check
-
-- If stamina **≤ 25%**, apply exhaustion penalties:
-  - Rolls suffer **-2 penalty**.
+### **6. Apply Stamina Costs**
+- Deduct stamina costs for the chosen attack or defense actions:
+  - Offensive stamina costs depend on attack type.
+  - Defensive stamina costs depend on the chosen defense action.
+- If stamina falls below **25%**, apply exhaustion penalties:
+  - Rolls suffer a `-2 penalty`.
   - Movement speed decreases.
-- If stamina reaches 0, initiate a Stability Roll:
-  - Roll 1d20 + Endurance Modifier vs. Stability DC.
-
-### Advantage and Status Effects
-
-- If a roll exceeds the opposing roll by **10 or more**:
-  - Gain **advantage** on the next roll.
-- Apply any relevant status effects or conditions (e.g., stunned, fatigued).
-
-### Next Combatant
-
-- Turn ends; move to the next character in initiative order.
-- Repeat steps 2-7 for each round or sub-round until combat concludes.
-
-A full "round" is a whole number versus a "sub-round" is a digit (for example, Round 1, sub-round 2 would be "Round 1.2"). Every 10 sub-rounds is considered a round.
 
 ---
 
-## Combat Round Template
-
-### Action Declaration
-
-- Identify the attacking party (e.g., Gatz or Opponent) and declare their chosen action (e.g., attack type or defense).
-- State the roll and modifiers (e.g., base roll + attack/defense modifier + attack type bonus).
-
-### Response Declaration
-
-- Identify the defending party and their action (e.g., dodge, block, counterattack).
-- State the roll and modifiers for the response (e.g., base roll + defense modifier).
-
-### Outcome Determination
-
-- Compare rolls to determine whether the attack lands, is blocked, or is matched.
-- Apply damage if applicable, based on the roll difference and the damage type.
-
-### Stamina Cost Calculation
-
-- Deduct stamina costs for the chosen attack/defense actions.
-- Show updated stamina values for both parties.
-
-### Narrative Context
-
-- Provide a brief, engaging narrative of the exchange, including attack style, defense success/failure, and any noticeable consequences.
+### **7. Check for New Advantage**
+- After determining results, check if a new advantage is triggered for the next round:
+  - **Roll Difference (10+)**: The combatant with the higher roll gains advantage.
+  - Apply this advantage to their next roll.
 
 ---
 
-## Combat Round Example
+### **8. Stability Check (If Stamina Reaches 0)**
+- If a combatant’s stamina drops to 0, they must roll for stability:
+  - Roll `1d20 + Endurance Modifier` against `DC = 10 - (Opponent’s Offense Modifier - Defender’s Defense Modifier)`.
+- **Outcomes**:
+  - **Pass**: The combatant remains standing but loses their next action.
+  - **Fail**: The combatant collapses and is out of combat.
 
-### Action Declaration
+---
 
-- Gatz attacks with a Quick Attack.
-- Roll: 15 + 4 (offense modifier) = 19.
+### **9. Apply Status Effects and Narrate**
+- Check for and apply any relevant status effects (e.g., stunned, fatigued, disoriented) triggered during the round.
+- Narrate how the rolls play out.
 
-### Response Declaration
+---
 
-- Opponent defends with a block.
-- Roll: 13 + 2 (defense modifier) = 15.
+### **10. Next Combatant**
+- End the current combatant’s turn and proceed to the next character in the initiative order.
+- Repeat steps **2-9** for each combatant until the combat ends.
 
-### Outcome Determination
+---
 
-- Gatz’s attack lands with Solid Damage (4-9 difference).
-- **Damage**: -5 to the opponent’s stamina.
+## Combat Flow Programmatic Sequence:
 
-### Stamina Cost Calculation
+```python
+def check_advantage(combatant, opponent):
+    mastery_diff = combatant.mastery_level - opponent.mastery_level
+    # Advantage triggered by mastery-level difference
+    if mastery_diff >= 2:
+        return True
+    # Check if combatant has advantage from a previous critical roll
+    return combatant.has_advantage
 
-- Gatz: Current stamina -2 (Quick Attack) = updated value.
-- Opponent: Current stamina -5 (damage) = updated value.
+def roll_action(combatant, action, advantage=False):
+    if advantage:
+        roll1 = roll_d20() + combatant.get_modifier(action)
+        roll2 = roll_d20() + combatant.get_modifier(action)
+        return max(roll1, roll2)
+    return roll_d20() + combatant.get_modifier(action)
 
-### Narrative Context
+def check_new_advantage(combatant, attack_roll, defense_roll):
+    # Trigger advantage on a critical roll difference (10+)
+    if abs(attack_roll - defense_roll) >= 10:
+        combatant.has_advantage = True
+    else:
+        combatant.has_advantage = False
 
-- Gatz strikes with precision, his blade finding an opening in the opponent’s defenses. The opponent recoils, visibly weakened but still ready to fight.
+def combat_round(combatants):
+    # 1. Initiative
+    initiative_order = sorted(combatants, key=lambda c: roll_initiative(c), reverse=True)
+    
+    for combatant in initiative_order:
+        if combatant.stamina <= 0:
+            continue  # Skip if combatant is incapacitated
+        
+        # 2. Declare Actions
+        action = combatant.declare_action()
+        
+        # 3. Check for Advantage
+        advantage = check_advantage(combatant, combatants)
+        
+        # 4. Roll for Action (Attack or Special Action)
+        attack_roll = roll_action(combatant, action, advantage)
+        
+        # 5. Opponent's Response
+        opponent = select_opponent(combatant, combatants)
+        defense_action = opponent.declare_defense()
+        defense_roll = roll_action(opponent, defense_action)
+        
+        # 6. Compare Results and Determine Outcome
+        if attack_roll > defense_roll:
+            damage = calculate_damage(attack_roll, defense_roll)
+            opponent.stamina -= damage
+            # Check if new advantage is triggered
+            check_new_advantage(combatant, attack_roll, defense_roll)
+        else:
+            # Check if defender gains advantage
+            check_new_advantage(opponent, defense_roll, attack_roll)
+        
+        # 7. Apply Stamina Costs
+        combatant.stamina -= action.stamina_cost
+        opponent.stamina -= defense_action.stamina_cost
+        
+        # 8. Exhaustion Check
+        apply_exhaustion_penalties(combatant)
+        apply_exhaustion_penalties(opponent)
+        
+        # 9. Stability Check
+        if opponent.stamina <= 0:
+            if not stability_roll(opponent):
+                opponent.incapacitated = True
+        
+        # 10. Status Effects
+        apply_status_effects(combatant)
+        apply_status_effects(opponent)
+    
+    # Proceed to the next round or end combat if conditions are met
+
+```
