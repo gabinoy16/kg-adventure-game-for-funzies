@@ -160,6 +160,59 @@ The chipped matte finish and frost marks are not imperfections but **marks of pe
  
 ---
 
+## Embersong 
+(#embersong)
+
+### Overview
+- **Type**: Weapon (Phantom Blade, Coldspire Fragment)  
+- **Source**: Forged from a fragment of Coldspire before Gatz’s final trial  
+- **Tags**: #embersong, #coldspire-fragment, #phantom-blade, #flame-magic  
+
+### Description
+Embersong is a phantom blade forged from a smaller fragment of the Coldspire. Through his flame magic and willpower, Gatz channels the fragment's energy into a blazing weapon of fire and crystal. It acts as a versatile secondary weapon, seamlessly blending offense and defense.
+
+Embersong reflects Gatz’s creativity and control in combat, serving as both a precise tool for dual-wielding and a manifestation of his growing mastery over flame magic.  
+
+### Features/Attributes (Optional)
+| **Effect**               | **Details**                                                                    |
+|--------------------------|--------------------------------------------------------------------------------|
+| **Dual-Wield Advantage** | Grants Gatz an additional attack each round when dual-wielding. This attack receives a **+1 modifier** to the roll. |
+| **Enhanced Damage**      | Each successful strike with the phantom blade deals **+2 additional damage**, regardless of damage type. |
+| **Energy Resonance**     | Disorients the target on a successful hit, reducing their next defensive roll by **-1**. Does not stack on repeated strikes in the same round. |
+| **Flexibility in Defense**| The blade can be used defensively, adding **+2 to defense rolls** when declared, but Gatz forfeits the second attack that round. |
+| **Stamina Cost**         | Maintaining Embersong drains **5 stamina per round** of combat due to its high energy demands. |
+
+### Compatibility
+- **Synergy with Gatz**:  
+   - Embersong enhances Gatz’s **dual-wielding proficiency**, acting as an ideal partner to his custom shortsword.  
+   - Perfectly attuned to his **flame magic**, the blade’s strength and effects scale with Gatz’s focus and mastery.  
+- **Combat Use**:  
+   - Ideal for high-pressure battles, where its offensive and defensive versatility can shift momentum.  
+   - Allows Gatz to disorient powerful opponents, creating openings for strategic attacks.  
+
+### Stamina/Resource Cost
+- **Cost to Use**:  
+   - Drains **5 stamina per round** to maintain the phantom blade.  
+- **Efficiency**:  
+   - Highly effective for short bursts in combat when quick, amplified strikes or defensive maneuvers are needed.  
+   - Prolonged use may be taxing, requiring careful stamina management.  
+
+### Symbolism (Optional)
+Embersong symbolizes Gatz’s ability to forge strength from adversity. Born from a Coldspire fragment, the blade reflects both the trials he overcame and his deepening connection to flame magic.  
+
+Its spectral nature also represents Gatz’s growing creativity and discipline, transforming raw magical energy into a refined, purposeful weapon.
+
+### Narrative/Role-Playing Notes (Optional)
+- **Combat Scenarios**:  
+   - Gatz may summon Embersong during critical fights where disorienting or overwhelming an opponent is key.  
+   - Its stamina cost adds a layer of tension, requiring Gatz to choose when to maintain the blade strategically.  
+- **Growth Potential**:  
+   - The fragment’s power could evolve further as Gatz faces greater trials or discovers new sources of flame-based magic.  
+- **Visual Flair**:  
+   - Embersong manifests as a blade of flickering fire and translucent crystal, leaving glowing embers in its wake.  
+
+---
+
 ## Shard of Stability
 
 ### Overview
