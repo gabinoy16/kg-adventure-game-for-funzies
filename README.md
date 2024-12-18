@@ -18,19 +18,11 @@
      - [Background](#background)
 
 4. [Inventory](#inventory)
-   - [Shard of Stability](#shard-of-stability)
-     - [Core Attributes](#core-attributes)
-     - [Potential Applications](#potential-applications)
-   - [Embersong](#embersong)
-     - [Overview](#overview)
-     - [Features/Attributes](#featuresattributes)
-     - [Compatibility](#compatibility)
-     - [Stamina Cost](#stamina-cost)
+   - [Custom Shortsword](#custom-shortsword)
    - [Mithril Armor](#mithril-armor)
-     - [Material](#material)
-     - [Customization](#customization)
-     - [Wear and Tear](#wear-and-tear)
-    
+   - [Embersong](#embersong)
+   - [Shard of Stability](#shard-of-stability)
+     
 5. [Game Mechanics](#game-mechanics)
    - [Combat Rules](#combat-rules)
    - [Magic Compatibility](#magic-compatibility)
@@ -233,6 +225,7 @@ Gatz’s custom shortsword is an intentionally blunt, wide, and unassuming weapo
 When paired with Gatz’s fire magic, the sword transforms into a blazing weapon, embodying his focus, control, and dual philosophy of balance and latent power.
 
 ### Features/Attributes (Optional)
+
 | **Effect**               | **Details**                                                                    |
 |--------------------------|--------------------------------------------------------------------------------|
 | **Blunt Design**         | Effective for disabling opponents without lethal intent, ideal for non-lethal combat. |
@@ -285,6 +278,7 @@ Forged from **mithril**, a rare, lightweight, and highly durable metal, Gatz’s
 Its low-profile design allows Gatz to retain agility during combat while still providing resistance against physical and elemental attacks. Over time, the armor has acquired subtle wear that reflects his victories and trials, particularly the grueling Coldspire expedition.
 
 ### Features/Attributes (Optional)
+
 | **Effect**               | **Details**                                                                    |
 |--------------------------|--------------------------------------------------------------------------------|
 | **Exceptional Protection** | Provides strong resistance against physical strikes and elemental attacks (e.g., fire and ice). |
@@ -339,6 +333,7 @@ Embersong is a phantom blade forged from a smaller fragment of the Coldspire. Th
 Embersong reflects Gatz’s creativity and control in combat, serving as both a precise tool for dual-wielding and a manifestation of his growing mastery over flame magic.  
 
 ### Features/Attributes (Optional)
+
 | **Effect**               | **Details**                                                                    |
 |--------------------------|--------------------------------------------------------------------------------|
 | **Dual-Wield Advantage** | Grants Gatz an additional attack each round when dual-wielding. This attack receives a **+1 modifier** to the roll. |
@@ -392,6 +387,7 @@ The Shard of Stability is a Coldspire artifact that embodies balance, protection
 Its polished surface gleams faintly with a calming energy, and its presence instills composure in both the wielder and nearby allies.  
 
 ### Features/Attributes (Optional)
+
 | **Effect**               | **Details**                                                                    |
 |--------------------------|--------------------------------------------------------------------------------|
 | **Stabilizing Aura**     | Generates a calming field that mitigates external forces (e.g., wild magic surges, emotional influences). Grants bonuses to **Endurance** and **Situational Awareness** for allies nearby. |
