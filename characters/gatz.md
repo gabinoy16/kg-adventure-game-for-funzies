@@ -1,25 +1,11 @@
-# Gatz's Character Page
+## Gatz
+**Tags**: #gatz, #gatz-profile
 
-## Table of Contents
+## Current True Skill Levels and Dampened Levels 
 
-1. [Current True Skill Levels and Dampened Levels](#current-true-skill-levels-and-dampened-levels)
-2. [Skill Mastery Calculations (aka. Leveling Up)](#skill-mastery-calculations-aka-leveling-up)
-   - [Calculating Experience for Gatz with the Vanguard’s Core Dampener](#calculating-experience-for-gatz-with-the-vanguards-core-dampener)
-     - [Step 1: Determine Base Experience Gain](#step-1-determine-base-experience-gain)
-     - [Step 2: Apply the Dampener](#step-2-apply-the-dampener)
-     - [Step 3: Update Mastery Levels After Each Cieli](#step-3-update-mastery-levels-after-each-cieli)
-   - [Dampener Notes](#dampener-notes)
-3. [Title: Vanguard of the Aegis](#title-vanguard-of-the-aegis)
-   - [Passive Skill: "Legendary Aura: Unshakable Presence"](#passive-skill-legendary-aura-unshakable-presence)
-   - [Lore](#lore)
-      - [The True Mark of a Vanguard: The Aura of the Summit](#1-the-true-mark-of-a-vanguard-the-aura-of-the-summit)
-      - [The Shard: An Artifact with Limits](#2-the-shard-an-artifact-with-limits)
-      - [The Unseen Markings](#3-the-unseen-markings)
-      - [A Vanguard’s Magical Presence](#4-a-vanguards-magical-presence)
+(#true-skill-levels)  
 
-## Current True Skill Levels and Dampened Levels
-
-"Dampened Levels" refer to the effects of the **Vanguard's Core**
+"Dampened Levels" refer to the effects of the **Vanguard's Core**.
 
 | **Skill**               | **True Level**           | **Dampened Level** | **Notes**                                                                        |
 |-------------------------|--------------------------|--------------------|----------------------------------------------------------------------------------|
@@ -34,9 +20,13 @@
 
 ## Skill Mastery Calculations (aka. Leveling Up)
 
+(#leveling-up)  
+
 ### Calculating Experience for Gatz with the Vanguard’s Core Dampener
 
 #### Step 1: Determine Base Experience Gain
+
+(#base-experience-gain)  
 
 Each cieli, experience gain for skills depends on the following factors:
 
@@ -58,6 +48,8 @@ Each cieli, experience gain for skills depends on the following factors:
 
 #### Step 2: Apply the Dampener
 
+(#apply-dampener)  
+
 The Vanguard’s Core dampens Gatz’s skills by three mastery levels for all except **Situational Awareness**. This introduces two effects:
 
 1. **Skill Cap**:
@@ -71,6 +63,8 @@ The Vanguard’s Core dampens Gatz’s skills by three mastery levels for all ex
 ---
 
 #### Step 3: Update Mastery Levels After Each Cieli
+
+(#update-mastery-levels)  
 
 1. **Calculate Dampened Progression**:
    - Multiply the base growth percentage by **1.5x**.
@@ -86,6 +80,8 @@ The Vanguard’s Core dampens Gatz’s skills by three mastery levels for all ex
 
 ### Dampener Notes
 
+(#dampener-notes)  
+
 - **When Dampener is Removed**:
   - The stored experience is applied immediately to the true skill levels, reflecting the hidden growth while training under the dampener.
 
@@ -96,9 +92,11 @@ The Vanguard’s Core dampens Gatz’s skills by three mastery levels for all ex
 
 ## Title: Vanguard of the Aegis
 
-After completing the Coldspire Expedition and the Aegis of the Spire's seven trials, Gatz honed his mind, body, and spirit, leaving him as a **"Vanguard of the Aegis"**, a secret title bestowed upon mythically rare individuals who embody the mountain’s steadfastness, strength, and legacy.
+(#vanguard-of-the-aegis, #vanguard-title, #coldspire-title)  
 
 ### Passive Skill: "Legendary Aura: Unshakable Presence"
+
+(#legendary-aura, #passive-skill, #unshakable-presence, #skill)  
 
 This aura imposes the following effects on opponents whose relevant defensive mastery level is less than the Vanguard of the Aegis’ offensive mastery level:
 
@@ -111,28 +109,34 @@ This aura imposes the following effects on opponents whose relevant defensive ma
 3. **Weakened Stamina**
    - The oppressive weight of the Vanguard’s presence drains opponents’ endurance, causing them to tire more quickly. **Stamina costs for actions increase by +3.**
 
----
-
 ### Lore
 
-#### 1. The True Mark of a Vanguard: The Aura of the Summit
+(#vanguard-lore)
+
+#### The True Mark of a Vanguard: The Aura of the Summit
+
+(#aura-of-the-summit)
 
 - A genuine Vanguard of the Aegis doesn’t need to show their shard or markings to prove their title. Instead, they possess a unique ability to emit an aura—a deliberate manifestation of the Coldspire’s presence.
 
-- When activated, this aura creates a heavy, almost crushing tension that mirrors the atmosphere of Coldspire’s summit:
+- When activated, this aura creates a heavy, almost crushing tension that mirrors the atmosphere of the #coldspire summit:
   - The sharpness of biting cold.
   - The weight of immense pressure, as though the mountain itself is pressing down.
   - The eerie stillness that demands both reverence and fear.
 
 This aura cannot be replicated or faked. Even the most powerful illusionists fail to recreate the unique combination of sensations that define it. Those who experience it describe it as being in the presence of the mountain itself.
 
-#### 2. The Shard: An Artifact with Limits
+#### The Shard: An Artifact with Limits
+
+(#vanguard-shard-limits)
 
 - Many impostors rely on forged shards to claim the title, but the shard is only a partial representation of the Vanguard.
 
 - While the shard has its uses—amplifying power or channeling the mountain’s magic—it doesn’t act as undeniable proof of status. Only the Vanguard’s mastery and aura can truly verify their claim.
 
-#### 3. The Unseen Markings
+#### The Unseen Markings
+
+(#vanguard-markings)
 
 - Legends of markings exist, but no one truly knows their form.
 
@@ -140,7 +144,9 @@ This aura cannot be replicated or faked. Even the most powerful illusionists fai
 
 - This ambiguity adds to the mystique of the Vanguard, making it almost impossible for impostors to fabricate this part of the myth convincingly.
 
-#### 4. A Vanguard’s Magical Presence
+#### A Vanguard’s Magical Presence
+
+(#vanguard-magical-presence)
 
 - Above all, the Vanguard’s magical presence is their most defining feature. It is an unmistakable balance of power and control that reflects the trials they endured:
   - Unyielding like the red pillar of will.
@@ -151,4 +157,8 @@ This aura cannot be replicated or faked. Even the most powerful illusionists fai
 
 This presence isn’t a deliberate display of strength but a natural, instinctive projection of their mastery over themselves and the mountain’s teachings. Even without activating their aura, those sensitive to magic feel the cold authority radiating from them—a mix of humility and overwhelming command.
 
-By keeping the shard and markings exploitable while focusing on the aura and magical presence as the ultimate verification, Gatz’s journey as a Vanguard of the Aegis becomes deeply personal and impossible to fake. These elements reinforce the rarity and reverence of his title while maintaining the mystique of the Coldspire.
+#### Reflection on the Vanguard’s Identity
+
+(#vanguard-identity)
+
+By keeping the shard and markings exploitable while focusing on the aura and magical presence as the ultimate verification, Gatz’s journey as a Vanguard of the Aegis becomes deeply personal and impossible to fake. These elements reinforce the rarity and reverence of his title while maintaining the mystique of the #coldspire.
