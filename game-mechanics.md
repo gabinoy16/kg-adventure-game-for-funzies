@@ -1,4 +1,6 @@
-## Combat Rules v1.3 Table of Contents
+# Game Mechanics
+
+## Combat Rules
 1. [Mastery Level Modifiers](#mastery-level-modifiers)
 2. [Rolling for Offense and Defense](#rolling-for-offense-and-defense)
 3. [Fatigue and Stamina Calculation](#fatigue-and-stamina-calculation)
@@ -7,9 +9,8 @@
 6. [Types of Attacks](#types-of-attacks)
 7. [Types of Defense](#types-of-defense)
 8. [Winning Conditions](#winning-conditions)
-9. [Combat Flow v1.2](#combat-flow-v12)
 
-## Combat Flow v1.2 Table of Contents
+## Combat Flow
 1. [Initiative](#1-initiative)
 2. [Declare Actions](#2-declare-actions)
 3. [Check for Advantage](#3-check-for-advantage)
@@ -20,10 +21,12 @@
 8. [Stability Check (If Stamina Reaches 0)](#8-stability-check-if-stamina-reaches-0)
 9. [Apply Status Effects and Narrate](#9-apply-status-effects-and-narrate)
 10. [Next Combatant](#10-next-combatant)
+11. [Combat Flow Programmatic Sequence](#combat-flow-programmatic-sequence)
 
 ---
 
-# Combat Rules v1.3
+# Combat Rules 
+v1.3
 
 ## Mastery Level Modifiers
 
@@ -40,8 +43,6 @@ Each character’s mastery level in relevant skills adds a modifier to their rol
 | Master             | +6           |
 
 Modifiers apply to both offensive and defensive rolls based on relevant skills.
-
----
 
 ## Rolling for Offense and Defense
 
@@ -69,8 +70,6 @@ Combat actions involve opposed rolls:
   - A 2-level mastery difference in relevant skills.
   - A roll difference of 10+ (critical thresholds as described above).
 
----
-
 ## Fatigue and Stamina Calculation
 
 ### Stamina Formula
@@ -97,8 +96,6 @@ For example, if a character has "Adept" Endurance skill mastery, their mastery i
   - Rolls suffer a **-2 penalty**.
   - Movement speed decreases.
 
----
-
 ## Damage Calculation
 
 Damage is based on the roll difference between attacker and defender:
@@ -110,8 +107,6 @@ Damage is based on the roll difference between attacker and defender:
 | 10+                 | Critical Damage   | 10                |
 
 The attacker’s roll must exceed the defender’s roll to deal damage. Damage is then deducted from stamina.
-
----
 
 ## Stability Rolls
 
@@ -129,8 +124,6 @@ When a character’s stamina drops to 0, they must roll for stability to stay co
 - **Pass**: The character remains standing but loses their next action to recover.
 - **Fail**: The character collapses and is out of combat.
 
----
-
 ## Types of Attacks
 
 Characters may choose attack types before rolling to adjust their strategy:
@@ -143,8 +136,6 @@ Characters may choose attack types before rolling to adjust their strategy:
 
 If no attack type is declared, a Quick Attack is assumed.
 
----
-
 ## Types of Defense
 
 | **Defense Type**      | **Stamina Cost** | **Bonus to Roll** |
@@ -154,8 +145,6 @@ If no attack type is declared, a Quick Attack is assumed.
 
 *Dodge costs 0 stamina if the defender's speed mastery is at least one level above the attacker.
 
----
-
 ## Winning Conditions
 
 Combat ends when:
@@ -163,9 +152,12 @@ Combat ends when:
 - One character’s stamina is fully depleted, and they fail a stability roll.
 - A specific win condition (e.g., “First to 3 hits”) is met.
 
+
 ---
 
-# Combat Flow v1.2
+
+# Combat Flow 
+v1.2
 
 ### **1. Initiative**
 - Roll `1d20` for all participants to determine combat order.
@@ -174,29 +166,21 @@ Combat ends when:
   - Secondary `1d20` roll if mastery is equal.
 - Calculate initial stamina (fatigue capacity) using the stamina formula.
 
----
-
 ### **2. Declare Actions**
 - At the start of a combatant's turn, they declare their intended action:
   - **Offensive Actions**: Specify attack type.
   - **Defensive Actions**: Prepare to block or dodge an anticipated attack.
   - **Special Actions**: Cast a spell, activate an ability, or perform non-standard moves.
 
----
-
 ### **3. Check for Advantage**
 - Before rolling, determine if **advantage** applies:
   - Refer to Combat Rules [Rolling for Offense and Defense](#rolling-for-offense-and-defense) on what creates advantage or disadvantage
   - If advantage applies, roll twice and take the higher result.
 
----
-
 ### **4. Roll for Action**
 - **Offense**: Roll `1d20 + Offense Modifier(s)` (with advantage if applicable).
 - **Defense**: Roll `1d20 + Defense Modifier(s)` (with advantage if applicable).
 - **Special Actions**: Roll as determined by the nature of the action (e.g., a spell might require a specific roll type).
-
----
 
 ### **5. Compare Results and Determine Outcome**
 - Compare offensive and defensive rolls:
@@ -207,8 +191,6 @@ Combat ends when:
   - The chosen attack type.
 - Update stamina for the defender if damage is dealt.
 
----
-
 ### **6. Apply Stamina Costs**
 - Deduct stamina costs for the chosen attack or defense actions:
   - Offensive stamina costs depend on attack type.
@@ -217,14 +199,10 @@ Combat ends when:
   - Rolls suffer a `-2 penalty`.
   - Movement speed decreases.
 
----
-
 ### **7. Check for New Advantage**
 - After determining results, check if a new advantage is triggered for the next round:
   - **Roll Difference (10+)**: The combatant with the higher roll gains advantage.
   - Apply this advantage to their next roll.
-
----
 
 ### **8. Stability Check (If Stamina Reaches 0)**
 - If a combatant’s stamina drops to 0, they must roll for stability:
@@ -233,21 +211,15 @@ Combat ends when:
   - **Pass**: The combatant remains standing but loses their next action.
   - **Fail**: The combatant collapses and is out of combat.
 
----
-
 ### **9. Apply Status Effects and Narrate**
 - Check for and apply any relevant status effects (e.g., stunned, fatigued, disoriented) triggered during the round.
 - Narrate how the rolls play out.
-
----
 
 ### **10. Next Combatant**
 - End the current combatant’s turn and proceed to the next character in the initiative order.
 - Repeat steps **2-9** for each combatant until the combat ends.
 
----
-
-## Combat Flow Programmatic Sequence:
+## Combat Flow Programmatic Sequence
 
 ```python
 def check_advantage(combatant, opponent):
