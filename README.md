@@ -57,6 +57,8 @@
 ## Custom Shortsword
 (#custom-shortsword)
 
+<details>
+
 ### Overview
 - **Type**: Weapon (Shortsword)  
 - **Source**: Commissioned of the blacksmith of Eryndell to reflect Gatz’s philosophy and combat style  
@@ -104,10 +106,14 @@ Together, these qualities represent Gatz’s ability to wield power without succ
    - The sword could attract attention from blacksmiths or magic users interested in replicating its dual-purpose design.  
    - Its adaptability makes it a unique tool for upgrading or further enchantment as Gatz progresses.  
 
+</details>
+
 ---
 
 ## Mithril Armor
 (#mithril-armor)
+
+<details>
 
 ### Overview
 - **Type**: Armor  
@@ -157,11 +163,15 @@ The chipped matte finish and frost marks are not imperfections but **marks of pe
    - The faint etchings of the Eryndell tournament crest on the shoulder plates could serve as a point of pride—or a mark that others in Eryndell recognize.  
 - **Plot Hooks**:  
    - Artisans or collectors might offer to repair or further customize the armor, intrigued by its rarity, battle-earned wear, and history.
- 
+
+</details>
+
 ---
 
 ## Embersong 
 (#embersong)
+
+<details>
 
 ### Overview
 - **Type**: Weapon (Phantom Blade, Coldspire Fragment)  
@@ -211,9 +221,14 @@ Its spectral nature also represents Gatz’s growing creativity and discipline, 
 - **Visual Flair**:  
    - Embersong manifests as a blade of flickering fire and translucent crystal, leaving glowing embers in its wake.  
 
+</details>
+   
 ---
 
 ## Shard of Stability
+(#shard-of-stability)
+
+<details>
 
 ### Overview
 - **Type**: Artifact (Coldspire Relic)  
@@ -254,6 +269,8 @@ Gatz values it as a tool of purpose and composure, viewing it as a guardian’s 
    - A meaningful gift for someone struggling with emotional or magical instability, symbolizing protection and trust.  
 - **Plot Hooks**:  
    - The shard’s calming aura could attract the attention of those seeking balance or make it a target for individuals desiring its protective power.
+
+</details>
 
 ---
 
