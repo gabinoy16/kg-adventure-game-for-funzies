@@ -1,5 +1,3 @@
-# Inventory
-
 ## Custom Shortsword
 (#custom-shortsword)
 
