@@ -1,3 +1,4 @@
-itle: "KG's adventure game for funzies"
+title: "KG's adventure game for funzies"
 markdown: kramdown
 theme: minima
+include: [".md"]
