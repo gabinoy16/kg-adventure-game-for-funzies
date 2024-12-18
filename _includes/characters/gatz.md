@@ -5,16 +5,18 @@
 
 (#true-skill-levels)  
 
-"Dampened Levels" refer to the effects of the **Vanguard's Core**.
+"Dampened Levels" refer to the effects of the **Vanguard's Core** #vanguard-core
 
-| **Skill**               | **True Level**           | **Dampened Level** | **Notes**                                                                        |
-|-------------------------|--------------------------|--------------------|----------------------------------------------------------------------------------|
-| **Endurance**           | Expert (65% → Elite)    | Competent          | Dampened three levels down; true growth continues at 1.5x multiplier.           |
-| **Fire Magic**          | Expert (20% → Elite)    | Competent          | Dampened three levels down; hidden progress enhanced by 1.5x multiplier.        |
-| **Martial Prowess**     | Elite (15% → Master)    | Adept              | Dampened three levels down; true growth continues at 1.5x multiplier.           |
-| **Situational Awareness** | Expert (10% → Elite)   | Expert             | Not dampened; true growth unaffected.                                           |
-| **Stealth**             | Expert (50% → Elite)    | Competent          | Dampened three levels down; hidden progress enhanced by 1.5x multiplier.        |
-| **Tactical Combat**     | Elite (5% → Master)     | Adept              | Dampened three levels down; true growth continues at 1.5x multiplier.           |
+| **Skill**                  | **True Level**           | **Dampened Level** | **Notes**                                                                        |
+|---------------------------|--------------------------|--------------------|----------------------------------------------------------------------------------|
+| **Endurance**             | Expert (65% → Elite)    | Competent          | Represents stamina and resilience in combat, allowing Gatz to execute more actions, endure prolonged fights, and recover more effectively. Dampened three levels down; true growth continues at 1.5x multiplier.           |
+| **Fire Magic**            | Expert (20% → Elite)    | Competent          | Governs Gatz's ability to wield and control fire-based spells or abilities, including their precision and intensity. Dampened three levels down; hidden progress enhanced by 1.5x multiplier.        |
+| **Martial Prowess (Defensive)** | Elite (15% → Master)   | Adept              | Reflects defensive combat techniques, including blocking, parrying, and minimizing damage during engagements. Dampened three levels down; true growth continues at 1.5x multiplier.           |
+| **Martial Prowess (Offensive)** | Expert (70% → Elite)   | Competent          | Represents offensive combat skills, emphasizing precise strikes, effective weapon use, and maximizing damage output. Dampened three levels down; true growth continues at 1.5x multiplier.           |
+| **Mobility**              | Expert (30% → Elite)  | Competent          | Combines speed and agility, crucial for dodging attacks, repositioning in combat, and executing acrobatic maneuvers. Dampened three levels down; true growth continues at 1.5x multiplier.           |
+| **Situational Awareness** | Expert (10% → Elite)    | Expert             | Enhances Gatz's ability to assess his surroundings, anticipate enemy moves, and adapt to changing scenarios in battle. Not dampened; true growth unaffected.                                           |
+| **Stealth**               | Expert (50% → Elite)    | Competent          | Enables Gatz to move undetected, execute ambushes, and avoid detection in both combat and exploration. Dampened three levels down; hidden progress enhanced by 1.5x multiplier.        |
+| **Tactical Combat**       | Elite (5% → Master)     | Adept              | Focuses on strategic decision-making during combat, such as exploiting enemy weaknesses or coordinating complex maneuvers. Dampened three levels down; true growth continues at 1.5x multiplier.           |
 
 ---
 
@@ -121,18 +123,18 @@ This aura imposes the following effects on opponents whose relevant defensive ma
 
 - When activated, this aura creates a heavy, almost crushing tension that mirrors the atmosphere of the #coldspire summit:
   - The sharpness of biting cold.
-  - The weight of immense pressure, as though the mountain itself is pressing down.
+  - The weight of immense pressure, as though the mountain itself is pressing down (related: #legendary-aura).
   - The eerie stillness that demands both reverence and fear.
 
 This aura cannot be replicated or faked. Even the most powerful illusionists fail to recreate the unique combination of sensations that define it. Those who experience it describe it as being in the presence of the mountain itself.
 
-#### The Shard: An Artifact with Limits
+#### Vanguard's Core: A Gift from Coldspire
 
-(#vanguard-shard-limits)
+(#vanguard-core)
 
-- Many impostors rely on forged shards to claim the title, but the shard is only a partial representation of the Vanguard.
+- Many impostors rely on forged shards to claim the title, but no one has seen the true shape and form of the Vanguard's Core, and only few even know it exists.
 
-- While the shard has its uses—amplifying power or channeling the mountain’s magic—it doesn’t act as undeniable proof of status. Only the Vanguard’s mastery and aura can truly verify their claim.
+- The core amplifies the Vanguard's power or dampens it by channeling the mountain’s magic. It can't act as undeniable proof of status since no one can verify its authenticity from any other artifact that could come out of #coldspire. Only the Vanguard’s mastery and aura can truly verify their claim.
 
 #### The Unseen Markings
 
