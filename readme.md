@@ -1,5 +1,5 @@
 ---
-title: "kg-adventure-game-for-funzies"
+title: "KG's adventure game for funzies"
 layout: default
 ---
 
