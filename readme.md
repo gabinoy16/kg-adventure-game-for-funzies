@@ -1,10 +1,5 @@
----
-title: "KG's adventure game for funzies"
-layout: default
----
-
 ## Table of Contents
-* TOC {:toc}
+
 
 # World Overview
 
