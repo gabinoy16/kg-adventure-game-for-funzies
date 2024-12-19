@@ -1,4 +1,5 @@
 ## Table of Contents
+<manual table goes here>
 
 ---
 
