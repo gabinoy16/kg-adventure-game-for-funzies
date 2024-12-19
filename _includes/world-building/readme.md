@@ -1,24 +1,9 @@
 # World Building
 
-## Table of Contents
-1. [World Date and Time](#world-date-and-time)
-2. [Population Distribution](#population-distribution)
-   - [Key Points for Gatz's Skills](#key-points-for-gatzs-skills)
-   - [Summary](#summary)
-   - [Estimated Distribution of Skill Mastery in the Region](#estimated-distribution-of-skill-mastery-in-the-region)
-3. [Banking System](#banking-system)
-   - [Centralized Hubs and Regional Branches](#centralized-hubs-and-regional-branches)
-   - [Banking Functions](#banking-functions)
-   - [Secure Transfers](#secure-transfers)
-   - [Magical Integration](#magical-integration)
-   - [The Banking Guild](#the-banking-guild)
-   - [Trust and Public Perception](#trust-and-public-perception)
-   - [Notable Banking Practices](#notable-banking-practices)
-   - [Key Weaknesses](#key-weaknesses)
-
 ---
 
 ## World Date and Time
+#cieli, #septicieli, #rp-time
 
 A "cieli" is a role-playing day -- shortened to "ci." A "septicieli" is a role-playing week -- shortened to "spc."
 
