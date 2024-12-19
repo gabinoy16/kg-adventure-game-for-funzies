@@ -1,4 +1,8 @@
-# Table of Contents
+---
+title: "KG's Adventure Game"
+layout: default
+---
+
 {:toc}
 
 ---
