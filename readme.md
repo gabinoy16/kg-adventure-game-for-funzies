@@ -1,4 +1,8 @@
-# Table of Contents
+---
+title: "KG's adventure game for funzies"
+layout: default
+---
+
 {:toc}
 
 ---
