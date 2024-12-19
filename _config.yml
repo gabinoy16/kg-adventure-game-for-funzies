@@ -2,3 +2,5 @@ title: "KG's adventure game for funzies"
 markdown: kramdown
 theme: minima
 include: [".md"]
+kramdown:
+  toc_levels: 1..3
