@@ -3,6 +3,7 @@ title: "KG's Adventure Game for Funzies"
 layout: default
 ---
 
+## Table of Contents
 {:toc}
 
 ---
