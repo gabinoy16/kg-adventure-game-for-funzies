@@ -1,5 +1,18 @@
 ## Table of Contents
 
+- [World Overview](#world-overview)
+  - [World Date and Time](#world-date-and-time)
+- [Locations](#locations)
+  - [Coldspire](#coldspire)
+  - [Eryndell](#eryndell)
+- [Characters](#characters)
+  - [Gatz](#gatz)
+  - [Frey and Party](#frey-and-party)
+- [Inventory](#inventory)
+- [Game Mechanics](#game-mechanics)
+  - [Combat Rules](#combat-rules)
+  - [Combat Flow](#combat-flow)
+  - [Combat Flow Programmatic Sequence](#combat-flow-programmatic-sequence)
 
 # World Overview
 
