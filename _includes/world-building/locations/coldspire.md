@@ -3,26 +3,6 @@
 
 ## **As of Spc 4 Ci 5**
 
-## Table of Contents
-1. [Coldspire Expedition Outcomes](#coldspire-expedition-outcomes)
-   - [Legendary Outcomes of the Coldspire Expedition](#1-legendary-outcomes-of-the-coldspire-expedition)
-     - [Completion of the Seven Trials](#11-completion-of-the-seven-trials)
-     - [The Vanguard’s Core](#12-the-vanguard’s-core)
-     - [The Fragment – Embersong](#13-the-fragment--embersong)
-     - [Increased Mastery and Hidden Growth](#14-increased-mastery-and-hidden-growth)
-   - [The Syndicate’s Operations and Map Discovery](#2-the-syndicates-operations-and-map-discovery)
-     - [Key Findings in the Syndicate Base](#21-key-findings-in-the-syndicate-base)
-     - [The Syndicate’s Intentions](#22-the-syndicates-intentions)
-   - [Gatz’s Current Status and Path Forward](#3-gatzs-current-status-and-path-forward)
-     - [Concealing His Powers](#31-concealing-his-powers)
-     - [Next Steps in Eryndell](#32-next-steps-in-eryndell)
-     - [Reinforcements from Merrowyn](#33-reinforcements-from-merrowyn)
-     - [Personal Growth](#34-personal-growth)
-2. [Syndicate Operations at Coldspire](#syndicate-operations-at-coldspire)
-   - [Discovery](#discovery)
-   - [Observations](#observations)
-
-
 ---
 
 ## **Coldspire Expedition Outcomes**
