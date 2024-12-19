@@ -4,8 +4,7 @@ layout: default
 ---
 
 ## Table of Contents
-
-{:toc}
+* TOC {:toc}
 
 # World Overview
 
