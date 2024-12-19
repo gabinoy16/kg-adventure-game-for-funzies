@@ -1,23 +1,5 @@
 # Frey and Her Party
 
-## Table of Contents
-1. [Frey (Freylunalis)](#frey-freylunalis)
-   - [Role](#role)
-   - [Attributes](#attributes)
-   - [Current Goal](#current-goal)
-2. [Party Members](#party-members)
-   - [Tharlin & Sorven (The Twins)](#tharlin--sorven-the-twins)
-   - [Araleth](#araleth)
-   - [Veyren](#veyren)
-3. [Party Dynamics](#party-dynamics)
-   - [Strengths](#strengths)
-   - [Weaknesses](#weaknesses)
-4. [Current Objective](#current-objective)
-5. [Relationship with Gatz](#relationship-with-gatz)
-   - [Frey](#frey)
-   - [Party](#party)
-   - [Potential for Growth](#potential-for-growth)
-
 ---
 
 ## Frey (Freylunalis)
