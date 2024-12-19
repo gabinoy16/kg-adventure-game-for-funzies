@@ -2,29 +2,6 @@
 
 ## **As of Spc 4 Ci 6**
 
-## Table of Contents
-1. [City Overview](#city-overview)
-   - [Climate and Terrain](#climate-and-terrain)
-   - [Architecture](#architecture)
-   - [Districts](#districts)
-2. [Culture and Society](#culture-and-society)
-   - [Population](#population)
-   - [Values and Attitudes](#values-and-attitudes)
-   - [Traditions](#traditions)
-3. [Governance and Defense](#governance-and-defense)
-   - [Leadership](#leadership)
-   - [The Patrol](#the-patrol)
-   - [Fortifications](#fortifications)
-4. [Economy and Trade](#economy-and-trade)
-   - [Key Exports](#key-exports)
-   - [Key Imports](#key-imports)
-   - [Trade Networks](#trade-networks)
-5. [Significance to Gatz](#significance-to-gatz)
-   - [Tournament Victory](#tournament-victory)
-   - [Training Recruits](#training-recruits)
-   - [Relationship with the Patrol](#relationship-with-the-patrol)
-   - [Connections with Frey](#connections-with-frey)
-
 ---
 
 ## **City Overview**
