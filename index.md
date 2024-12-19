@@ -7,8 +7,6 @@ layout: default
 
 {:toc}
 
----
-
 # World Overview
 
 {% include world-building/readme.md %}
