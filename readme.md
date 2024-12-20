@@ -1,3 +1,5 @@
+- [Lore Doc](lore-doc.md)
+
 ## Table of Contents
 
 - [World Overview](#world-overview)
