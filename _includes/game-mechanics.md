@@ -1,38 +1,35 @@
 # Game Mechanics
 
-## Combat Rules
-1. [Mastery Level Modifiers](#mastery-level-modifiers)
-2. [Rolling for Offense and Defense](#rolling-for-offense-and-defense)
-3. [Fatigue and Stamina Calculation](#fatigue-and-stamina-calculation)
-4. [Damage Calculation](#damage-calculation)
-5. [Stability Rolls](#stability-rolls)
-6. [Types of Attacks](#types-of-attacks)
-7. [Types of Defense](#types-of-defense)
-8. [Winning Conditions](#winning-conditions)
-
-## Combat Flow
-1. [Initiative](#1-initiative)
-2. [Declare Actions](#2-declare-actions)
-3. [Check for Advantage](#3-check-for-advantage)
-4. [Roll for Action](#4-roll-for-action)
-5. [Compare Results and Determine Outcome](#5-compare-results-and-determine-outcome)
-6. [Apply Stamina Costs](#6-apply-stamina-costs)
-7. [Check for New Advantage](#7-check-for-new-advantage)
-8. [Stability Check (If Stamina Reaches 0)](#8-stability-check-if-stamina-reaches-0)
-9. [Apply Status Effects and Narrate](#9-apply-status-effects-and-narrate)
-10. [Next Combatant](#10-next-combatant)
-11. [Combat Flow Programmatic Sequence](#combat-flow-programmatic-sequence)
+* [Combat Rules](#combat-rules)
+  *    [Mastery Level Modifiers](#mastery-level-modifiers)
+  *    [Rolling for Offense and Defense](#rolling-for-offense-and-defense)
+  *    [Fatigue and Stamina Calculation](#fatigue-and-stamina-calculation)
+  *    [Damage Calculation](#damage-calculation)
+  *    [Stability Rolls](#stability-rolls)
+  *    [Types of Attacks](#types-of-attacks)
+  *    [Types of Defense](#types-of-defense)
+  *    [Winning Conditions](#winning-conditions)
+* [Combat Flow](#combat-flow)
+  *    [Initiative](#initiative)
+  *    [Declare Actions](#declare-actions)
+  *    [Check for Advantage](#check-for-advantage)
+  *    [Roll for Action](#roll-for-action)
+  *    [Compare Results and Determine Outcome](#compare-results-and-determine-outcome)
+  *    [Apply Stamina Costs](#apply-stamina-costs)
+  *    [Check for New Advantage](#check-for-new-advantage)
+  *    [Stability Check (If Stamina Reaches 0)](#stability-check-if-stamina-reaches-0)
+  *    [Apply Status Effects and Narrate](#apply-status-effects-and-narrate)
+  *    [Next Combatant](#next-combatant)
+*   [Combat Flow Programmatic Sequence](#combat-flow-programmatic-sequence)
 
 ---
 
 # Combat Rules 
-(#combat-rules)
-
-v1.3
+- Tags: #combat-rules
+v.1.3
 
 ## Mastery Level Modifiers
-
-(#mastery-level-modifiers)
+- Tags: #mastery-level-modifiers
 
 Each character’s mastery level in relevant skills adds a modifier to their rolls:
 
@@ -48,38 +45,27 @@ Each character’s mastery level in relevant skills adds a modifier to their rol
 
 Modifiers apply to both offensive and defensive rolls based on relevant skills.
 
----
-
 ## Rolling for Offense and Defense
-
-(#offense-and-defense)
+- Tags: #offense-and-defense
 
 Combat actions involve opposed rolls:
-
 - **Attacker rolls**: Attack roll + offense modifier + bonus based on Attack Type selected.
 - **Defender rolls**: Defense roll + defense modifier.
 
 ### Success Thresholds
+- Tags: #success-thresholds
 
-(#success-thresholds)
-
-- **Attack Hits**: If attack roll > defense roll.
-  - *Example*: Attacker rolls 18; defender rolls 15. Attack hits.
-- **Attack Blocked**: If defense roll ≥ attack roll.
-  - *Example*: Attacker rolls 14; defender rolls 16. Attack blocked.
-
----
+- **Attack Hits**: If attack roll > defense roll. Example: Attacker rolls 18; defender rolls 15. Attack hits.
+- **Attack Blocked**: If defense roll ≥ attack roll. Example: Attacker rolls 14; defender rolls 16. Attack blocked.
 
 ### Critical, Advantage and Disadvantage
-
-(#critical-advantage-disadvantage, #critical)
+- Tags: #critical-advantage-disadvantage, #critical
 
 - If defense roll exceeds attack roll by 10+, the defender gains advantage on their next offensive roll (counterattack opening).
 - If attack roll exceeds defense roll by 10+, the attacker gains advantage on their next attack.
 
 ### Advantage Mechanics
-
-(#advantage-mechanics, #advantage, #disadvantage)
+- Tags: #advantage-mechanics, #advantage, #disadvantage
 
 - Roll twice and take the higher value.
 - Triggered by:
@@ -87,18 +73,15 @@ Combat actions involve opposed rolls:
   - A roll difference of 10+ (critical thresholds as described above).
 
 ## Fatigue and Stamina Calculation
-
-(#fatigue-and-stamina-calculation)
+- Tags: #fatigue-and-stamina-calculation
 
 ### Stamina Formula
-
-(#stamina-formula)
+- Tags: #stamina-formula
 
 Based on endurance mastery level: `Stamina = 10 × (Mastery Index)^2`
 
 ### Mastery Index Values
-
-(#mastery-index-values)
+- Tags: #mastery-index-values
 
 | **Mastery Level** | **Mastery Index** |
 |--------------------|-------------------|
@@ -113,16 +96,14 @@ Based on endurance mastery level: `Stamina = 10 × (Mastery Index)^2`
 For example, if a character has "Adept" Endurance skill mastery, their mastery index would be 3, and their stamina is calculated as `10 * (3)^2 = 90`
 
 ### Stamina Impact
-
-(#stamina-impact, #exhaustion)
+- Tags: #stamina-impact, #exhaustion
 
 - When stamina **≤ 25%**, the character becomes **exhausted**:
   - Rolls suffer a **-2 penalty**.
   - Movement speed decreases.
 
 ## Damage Calculation
-
-(#damage-calculation)
+- Tags: #damage-calculation
 
 Damage is based on the roll difference between attacker and defender:
 
@@ -135,14 +116,12 @@ Damage is based on the roll difference between attacker and defender:
 The attacker’s roll must exceed the defender’s roll to deal damage. Damage is then deducted from stamina.
 
 ## Stability Rolls
-
-(#stability-rolls)
+- Tags: #stability-rolls
 
 When a character’s stamina drops to 0, they must roll for stability to stay conscious.
 
 ### Stability Roll
-
-(#stability-roll-formula)
+- Tags: #stability-roll-formula
 
 | **Condition**       | **Roll Formula**                |
 |---------------------|---------------------------------|
@@ -150,15 +129,13 @@ When a character’s stamina drops to 0, they must roll for stability to stay co
 | DC                  | 10 - (Offense Modifier - Defense Modifier) |
 
 ### Outcomes
-
-(#stability-roll-outcomes)
+- Tags: #stability-roll-outcomes
 
 - **Pass**: The character remains standing but loses their next action to recover.
 - **Fail**: The character collapses and is out of combat.
 
 ## Types of Attacks
-
-(#types-of-attacks)
+- Tags: #types-of-attacks
 
 Characters may choose attack types before rolling to adjust their strategy:
 
@@ -171,8 +148,7 @@ Characters may choose attack types before rolling to adjust their strategy:
 If no attack type is declared, a Quick Attack is assumed.
 
 ## Types of Defense
-
-(#types-of-defense)
+- Tags: #types-of-defense
 
 | **Defense Type**      | **Stamina Cost** | **Bonus to Roll** |
 |-----------------------|------------------|-------------------|
@@ -182,25 +158,20 @@ If no attack type is declared, a Quick Attack is assumed.
 *Dodge costs 0 stamina if the defender's speed mastery is at least one level above the attacker.
 
 ## Winning Conditions
-
-(#winning-conditions)
+- Tags: #winning-conditions
 
 Combat ends when:
-
 - One character’s stamina is fully depleted, and they fail a stability roll.
 - A specific win condition (e.g., “First to 3 hits”) is met.
 
 ---
 
 # Combat Flow 
-
-(#combat-flow)
-
+- Tags: #combat-flow
 v1.2
 
-### **1. Initiative**
-
-(#initiative)
+### Initiative
+- Tags: #initiative
 
 - Roll `1d20` for all participants to determine combat order.
 - Resolve ties using:
@@ -208,34 +179,30 @@ v1.2
   - Secondary `1d20` roll if mastery is equal.
 - Calculate initial stamina (fatigue capacity) using the stamina formula.
 
-### **2. Declare Actions**
-
-(#declare-actions)
+### Declare Actions
+- Tags: #declare-actions
 
 - At the start of a combatant's turn, they declare their intended action:
   - **Offensive Actions**: Specify attack type.
   - **Defensive Actions**: Prepare to block or dodge an anticipated attack.
   - **Special Actions**: Cast a spell, activate an ability, or perform non-standard moves.
 
-### **3. Check for Advantage**
-
-(#check-for-advantage)
+### Check for Advantage
+- Tags: #check-for-advantage
 
 - Before rolling, determine if **advantage** applies:
   - Refer to Combat Rules [Rolling for Offense and Defense](#rolling-for-offense-and-defense) on what creates advantage or disadvantage.
   - If advantage applies, roll twice and take the higher result.
 
-### **4. Roll for Action**
-
-(#roll-for-action)
+### Roll for Action
+- Tags: #roll-for-action
 
 - **Offense**: Roll `1d20 + Offense Modifier(s)` (with advantage if applicable).
 - **Defense**: Roll `1d20 + Defense Modifier(s)` (with advantage if applicable).
 - **Special Actions**: Roll as determined by the nature of the action (e.g., a spell might require a specific roll type).
 
-### **5. Compare Results and Determine Outcome**
-
-(#compare-results-outcome)
+### Compare Results and Determine Outcome
+- Tags: #compare-results-outcome
 
 - Compare offensive and defensive rolls:
   - **Attack Hits**: If `attack roll > defense roll`.
@@ -245,9 +212,8 @@ v1.2
   - The chosen attack type.
 - Update stamina for the defender if damage is dealt.
 
-### **6. Apply Stamina Costs**
-
-(#apply-stamina-costs)
+### Apply Stamina Costs
+- Tags: #apply-stamina-costs
 
 - Deduct stamina costs for the chosen attack or defense actions:
   - Offensive stamina costs depend on attack type.
@@ -256,17 +222,15 @@ v1.2
   - Rolls suffer a `-2 penalty`.
   - Movement speed decreases.
 
-### **7. Check for New Advantage**
-
-(#check-new-advantage)
+### Check for New Advantage
+- Tags: #check-new-advantage
 
 - After determining results, check if a new advantage is triggered for the next round:
   - **Roll Difference (10+)**: The combatant with the higher roll gains advantage.
   - Apply this advantage to their next roll.
 
-### **8. Stability Check (If Stamina Reaches 0)**
-
-(#stability-check)
+### Stability Check (If Stamina Reaches 0)
+- Tags: #stability-check
 
 - If a combatant’s stamina drops to 0, they must roll for stability:
   - Roll `1d20 + Endurance Modifier` against `DC = 10 - (Opponent’s Offense Modifier - Defender’s Defense Modifier)`.
@@ -274,22 +238,22 @@ v1.2
   - **Pass**: The combatant remains standing but loses their next action.
   - **Fail**: The combatant collapses and is out of combat.
 
-### **9. Apply Status Effects and Narrate**
-
-(#apply-status-effects)
+### Apply Status Effects and Narrate
+- Tags: #apply-status-effects
 
 - Check for and apply any relevant status effects (e.g., stunned, fatigued, disoriented) triggered during the round.
 - Narrate how the rolls play out.
 
-### **10. Next Combatant**
-
-(#next-combatant)
+### Next Combatant
+- Tags: #next-combatant
 
 - End the current combatant’s turn and proceed to the next character in the initiative order.
 - Repeat steps **2-9** for each combatant until the combat ends.
 
+---
 
 ## Combat Flow Programmatic Sequence
+- Tags: #combat-flow-code, #combat-flow-programmatic-sequence
 
 ```python
 def check_advantage(combatant, opponent):
