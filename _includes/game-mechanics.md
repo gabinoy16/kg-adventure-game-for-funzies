@@ -78,22 +78,19 @@ Combat actions involve opposed rolls:
 ### Stamina Formula
 - Tags: #stamina-formula
 
-Based on endurance mastery level: `Stamina = 10 × (Mastery Index)^2`
+Based on endurance mastery level: `Stamina = 10 × (Endurance Mastery Level Modifier + 1)^2`
 
-### Mastery Index Values
-- Tags: #mastery-index-values
+| **Endurance Mastery Level** | **Mastery Level Modifier** | **Stamina** |
+|-----------------------------|----------------------------|-------------|
+| Novice                      | 0                          | 10          |       
+| Competent                   | 1                          | 40          |
+| Adept                       | 2                          | 90          |
+| Advanced                    | 3                          | 160         |
+| Expert                      | 4                          | 250         |
+| Elite                       | 5                          | 360         |
+| Master                      | 6                          | 490         |
 
-| **Mastery Level** | **Mastery Index** |
-|--------------------|-------------------|
-| Novice             | 1                 |
-| Competent          | 2                 |
-| Adept              | 3                 |
-| Advanced           | 4                 |
-| Expert             | 5                 |
-| Elite              | 6                 |
-| Master             | 7                 |
-
-For example, if a character has "Adept" Endurance skill mastery, their mastery index would be 3, and their stamina is calculated as `10 * (3)^2 = 90`
+For example, if a character has "Adept" Endurance skill mastery, that's a modifier of 2, and their stamina is calculated as `10 * (2+1)^2 = 90`
 
 ### Stamina Impact
 - Tags: #stamina-impact, #exhaustion
