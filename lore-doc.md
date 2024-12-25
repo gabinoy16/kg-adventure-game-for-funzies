@@ -696,24 +696,25 @@ The Shard of Stability reflects the core philosophy of Coldspire: achieving bala
 
 # Combat Rules 
 - Tags: #combat-rules
-v.1.3
+v.1.4
 
 ## Mastery Level Modifiers
 - Tags: #mastery-level-modifiers
 
 Each character’s mastery level in relevant skills adds a modifier to their rolls:
 
-| **Mastery Level** | **Modifier** |
-|--------------------|--------------|
-| Novice             | +0           |
-| Competent          | +1           |
-| Adept              | +2           |
-| Advanced           | +3           |
-| Expert             | +4           |
-| Elite              | +5           |
-| Master             | +6           |
+| **Mastery Level**  | **Modifier** | **Narrative Rationale**                              |
+|---------------------|--------------|-----------------------------------------------------|
+| **Novice**          | +0           | Starting point; little to no advantage.            |
+| **Competent**       | +1           | Represents basic proficiency.                      |
+| **Adept**           | +2           | A solid foundation with noticeable impact.         |
+| **Advanced**        | +4           | Significant expertise with situational dominance.  |
+| **Expert**          | +6           | High-level mastery, rare and impactful.            |
+| **Elite**           | +9           | Unmatched skill that dominates most encounters; nearly peerless in their field. |
+| **Master**          | +12          | Pinnacle of human expertise, near-perfect control and execution. |
+| **Grand Master**    | +15          | Transcendent; a living legend capable of feats that redefine what is possible. |
 
-Modifiers apply to both offensive and defensive rolls based on relevant skills.
+Modifiers apply to all rolls based on relevant skills.
 
 ## Rolling for Offense and Defense
 - Tags: #offense-and-defense
@@ -748,22 +749,22 @@ Combat actions involve opposed rolls:
 ### Stamina Formula
 - Tags: #stamina-formula
 
-Based on endurance mastery level: `Stamina = 10 × (Mastery Index)^2`
+Based on endurance mastery level: `Stamina = 10 × (Endurance Mastery Level Modifier + 1)^2`
 
-### Mastery Index Values
-- Tags: #mastery-index-values
+## Stamina Levels by Mastery Level
 
-| **Mastery Level** | **Mastery Index** |
-|--------------------|-------------------|
-| Novice             | 1                 |
-| Competent          | 2                 |
-| Adept              | 3                 |
-| Advanced           | 4                 |
-| Expert             | 5                 |
-| Elite              | 6                 |
-| Master             | 7                 |
+| **Endurance Mastery Level** | **Mastery Level Modifier** | **Starting Stamina** |
+|-----------------------------|----------------------------|-------------|
+| Novice                      | 0                          | 10          |       
+| Competent                   | 1                          | 40          |
+| Adept                       | 2                          | 90          |
+| Advanced                    | 4                          | 250         |
+| Expert                      | 6                          | 490         |
+| Elite                       | 9                          | 1000        |
+| Master                      | 12                         | 1690        |
+| Grand Master                | 15                         | 2560        |
 
-For example, if a character has "Adept" Endurance skill mastery, their mastery index would be 3, and their stamina is calculated as `10 * (3)^2 = 90`
+For example, if a character has and "Adept" Endurance skill mastery level, that's a modifier of 2, and their starting (and max) stamina is calculated as `10 * (2+1)^2 = 90`
 
 ### Stamina Impact
 - Tags: #stamina-impact, #exhaustion
