@@ -2,81 +2,78 @@
 
 #### Spc 4, Ci 7 (Current Cieli)
 
-- **Updated Kael of The Veil**:
-  - Gatz reported findings from Coldspire, including:
-    - The abandoned syndicate base.
-    - The map detailing syndicate operations and marked locations.
-    - Observations about Coldspire’s volatile, magical materials.
-  - Suggested a two-sided attack strategy: The Veil disrupts syndicate operations in Duskwatch Quarry and Glenhaven Docks while Gatz prepares to secure Coldspire.
+---
 
-- **Interaction with Master Harden (Blacksmith)**:
-  - Gatz requested the shard from Coldspire (the Vanguard’s Core) be embedded into his armor for tactical use and as a strategic decoy.
-  - Harden agreed to place the shard on the left chestplate, reinforced for durability.
-  - Paid Harden in advance and left the armor for modification.
+### **Key Events Recap**
 
-- **Training Session with Frey**:
-  - Gatz guided Frey through her first real attempts at channeling lightning magic without her warding bracelet.
-  - Frey’s results:
-    - Initial attempt resulted in a shock pulse hitting Gatz, but he reassured her it was part of the process.
-    - She successfully channeled a lightning bolt twice, showing measurable improvement in focus and control.
-  - Gatz shared his philosophy of learning through balance, intent, and overcoming fear.
-  - Frey felt the unique fatigue of magic use but gained confidence and resolve to keep improving.
+1. **Reporting to Kael of The Veil**:
+   - Gatz reported findings from Coldspire:
+     - The abandoned syndicate base with signs of mining but no substantial progress.
+     - Volatile, magical materials present in the mountain.
+     - Syndicate operations map detailing marked locations.
+   - Suggested retaking the Coldspire base for The Veil after disrupting Syndicate operations at nearby bases.
+   - Proposed a two-sided attack strategy: The Veil disrupts operations while Gatz secures Coldspire.
 
-- **Party Dynamics**:
-  - Frey’s party celebrated her progress, with Gatz observing from a distance.
-  - Gatz briefly reflected on the unusual toll of dampened Endurance as he quietly recovered.
-  - Frey’s party members (Tharlin, Sorven, Araleth, and Veyren) demonstrated trust and growing cohesion as a team.
+2. **Preparations and Training**:
+   - At the blacksmith, Gatz requested the shard from Coldspire (the Vanguard’s Core) be embedded into his mithril armor’s left chestplate.
+   - Harden agreed to reinforce the placement for durability; Gatz paid in advance.
+   - Trained Frey to channel her lightning magic without fear:
+     - Frey successfully cast her first lightning bolt and showed noticeable improvement.
+     - Gatz guided her through overcoming fear and focusing on balance and intent.
+   - Sparred with Tharlin and Sorven in a 2v1 match:
+     - Gatz yielded after taking 4 hits while landing several on Sorven.
+     - Commended the twins’ teamwork and reflected on the challenge of fighting with dampened endurance.
 
-- **Community Mission Discussion**:
-  - Gatz proposed taking on a community board mission to train further and earn coin.
-  - Frey’s party agreed eagerly:
-    - Tharlin and Sorven embraced it with their usual competitive banter.
-    - Araleth saw it as an opportunity to grow outside controlled training.
-    - Veyren expressed a desire to explore beyond the city walls.
-  - Frey viewed the mission as a chance to fulfill their goal of proving themselves in a larger arena.
+3. **Mission: Dire Boar Herd Control**:
+   - Party accepted the mission to eliminate a herd of boars threatening merchant caravans.
+   - **Combat Highlights**:
+     - Defeated 10 boars, including an alpha boar, through coordinated tactics.
+     - Strategically utilized terrain and flanking strategies.
+     - Gatz’s fire magic and leadership, along with Frey’s growing confidence, played key roles.
+   - Loot collected:
+     - **Alpha Boar Tusks** (2), **Regular Boar Tusks** (9), **Boar Hides** (10).
+   - Reflected on battle performance:
+     - Sorven questioned Gatz’s stamina; Gatz kept the dampener’s influence private.
 
-- **Skill Assessment Table (Frey’s Party)**:
+4. **Merchant Guild and Tavern Reflections**:
+   - Returned to Eryndell and claimed the reward:
+     - **200 gold coins** split among the group (Gatz yielded his share).
+   - Celebrated at the tavern:
+     - Frey observed Gatz’s dull blade and speculated about his unconventional fighting style.
+     - Gatz allowed inspection of the blade but kept the truth of his imbuing magic a secret.
+     - Frey expressed eagerness to learn from Gatz.
 
-| **Name**      | **Role**                  | **Primary Skill**       | **Mastery Level**       |
-|---------------|---------------------------|-------------------------|-------------------------|
-| **Frey**      | Elemental Caster          | Lightning Magic         | Competent → Adept     |
-| **Tharlin**   | Heavy Hitter              | Greatsword Combat       | Advanced                |
-| **Sorven**    | Heavy Hitter (Dual-Wield) | Dual-Wielding Axes      | Advanced                |
-| **Araleth**   | Healer & Support          | Restorative Magic       | Adept                   |
-| **Veyren**    | Scout & Tracker           | Archery & Survival      | Adept                   |
+---
 
-- **Sparring Match with Tharlin and Sorven**:
-  - Gatz faced both twins in a 2v1 sparring match.
-  - Results:
-    - **Gatz**: Landed key hits on Sorven but took 4 total hits, yielding the match.
-    - **Tharlin**: Delivered consistent, powerful strikes and remained unscathed.
-    - **Sorven**: Took 2 hits but managed to land decisive blows alongside his brother.
-  - Gatz reflected on the challenge of fighting while dampened, balancing fatigue with battle sense.
-  - Commended the twins for their impressive teamwork and acknowledged their strength.
+#### **Skill Progression Breakdown**
 
-- **Preparation for the Mission**:
-  - Gatz donned his old armor set:
-    - A durable, flexible leather set with small, interconnected metallic trims.
-    - Lightweight but heavier than mithril, offering less protection but excellent mobility.
-    - The familiar weight brought back memories of years of use, despite the short time since the tournament.
-  - Picked up a pouch of coins to shop for supplies at the apothecary.
-  - Equipped his sword and cloak, leaving the cold-resistant coat hanging in the room.
+| **Skill**              | **Mastery Level**         | **XP Earned** | **Progress Description**                                    |
+|-------------------------|---------------------------|---------------|------------------------------------------------------------|
+| **Leadership**          | Adept                 | +5 XP         | Coordinated the party and boosted their confidence.         |
+| **Fire Magic**          | Competent             | +15 XP        | Used focused fire magic attacks consistently in combat.     |
+| **Situational Awareness** | Adept               | +10 XP        | Observed terrain, enemy patterns, and directed strategies.  |
+| **Endurance**           | Competent             | +8 XP         | Sustained prolonged exertion under dampened abilities.      |
+| **Martial Prowess**     | Advanced              | +5 XP         | Demonstrated tactical melee strikes during combat.          |
 
-- **Community Board Review**:
-  - Gatz shortlisted potential missions suitable for Frey’s party:
-    - **Dire Boar Herd Control**:
-      - Cull aggressive dire boars in farmlands south of Eryndell (1.5 cieli away).
-      - Reward: 10 coin per boar eliminated, bonus for dispersing the herd.
-      - Risks: Boars are large, territorial, and travel in small groups.
-    - **Harpy Nest Dispersal**:
-      - Clear harpy nests near the cliffs of Stormwatch (2 cieli away).
-      - Reward: Significant coin, bonus for harpy feathers.
-      - Risks: Aerial combat and sonic screeches pose unique challenges.
+---
 
-  - After reviewing the board, Gatz noted the **Dire Boar Herd Control** mission might be especially appealing to the group for its scalable rewards and manageable terrain.
-  - Realized a mount-drawn caravan could reduce travel time to 1 hour, making the mission logistics smoother.
+#### **Party Dynamics Update**
 
-#### Pending Actions:
-- Finalize mission choice with Frey’s party at the community board.
-- Consider hiring a caravan for efficient travel to the mission site.
+| **Party Member** | **Trust Level**        | **Notes**                                               |
+|-------------------|------------------------|--------------------------------------------------------|
+| **Frey**          | Moderate → High       | Admiration for Gatz’s mentorship and fighting style.   |
+| **Tharlin**       | Steady → Strong       | Respect for Gatz’s leadership and camaraderie.         |
+| **Sorven**        | Steady → Curious      | Suspicious but intrigued by Gatz’s dulled blade.       |
+| **Veyren**        | Moderate → Steady     | Acknowledged Gatz’s tactical foresight.                |
+| **Araleth**       | Moderate → Steady     | Appreciated Gatz’s humility and care for the group.    |
+
+---
+
+### **Pending Tasks**
+
+1. Follow up with **Master Harden** on the mithril armor modification.
+2. Develop party tactics and train Frey further in lightning magic control.
+3. Consider future missions from the community board or The Veil.
+
+---
 
