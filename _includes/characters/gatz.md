@@ -8,22 +8,46 @@
 
 | **Skill**                  | **True Level**           | **Dampened Level** | **Notes**                                                                        |
 |---------------------------|--------------------------|--------------------|----------------------------------------------------------------------------------|
-| **Endurance**             | Expert (65% → Elite)    | Competent          | Represents stamina and resilience in combat, allowing Gatz to execute more actions, endure prolonged fights, and recover more effectively. Dampened three levels down; true growth continues at 1.5x multiplier.           |
-| **Fire Magic**            | Expert (20% → Elite)    | Competent          | Governs Gatz's ability to wield and control fire-based spells or abilities, including their precision and intensity. Dampened three levels down; hidden progress enhanced by 1.5x multiplier.        |
-| **Martial Prowess (Defensive)** | Elite (15% → Master)   | Adept              | Reflects defensive combat techniques, including blocking, parrying, and minimizing damage during engagements. Dampened three levels down; true growth continues at 1.5x multiplier.           |
-| **Martial Prowess (Offensive)** | Expert (70% → Elite)   | Competent          | Represents offensive combat skills, emphasizing precise strikes, effective weapon use, and maximizing damage output. Dampened three levels down; true growth continues at 1.5x multiplier.           |
-| **Mobility**              | Expert (30% → Elite)  | Competent          | Combines speed and agility, crucial for dodging attacks, repositioning in combat, and executing acrobatic maneuvers. Dampened three levels down; true growth continues at 1.5x multiplier.           |
-| **Situational Awareness** | Expert (10% → Elite)    | Expert             | Enhances Gatz's ability to assess his surroundings, anticipate enemy moves, and adapt to changing scenarios in battle. Not dampened; true growth unaffected.                                           |
-| **Stealth**               | Expert (50% → Elite)    | Competent          | Enables Gatz to move undetected, execute ambushes, and avoid detection in both combat and exploration. Dampened three levels down; hidden progress enhanced by 1.5x multiplier.        |
-| **Tactical Combat**       | Elite (5% → Master)     | Adept              | Focuses on strategic decision-making during combat, such as exploiting enemy weaknesses or coordinating complex maneuvers. Dampened three levels down; true growth continues at 1.5x multiplier.           |
+| **Endurance**             | Expert (1615/2000 XP)    | Competent          | Represents stamina and resilience in combat, allowing Gatz to execute more actions, endure prolonged fights, and recover more effectively. Dampened three levels down; true growth continues at 1.5x multiplier.           |
+| **Fire Magic**            | Expert (1120/2000 XP)    | Competent          | Governs Gatz's ability to wield and control fire-based spells or abilities, including their precision and intensity. Dampened three levels down; hidden progress enhanced by 1.5x multiplier.        |
+| **Martial Prowess (Defensive)** | Elite (2300/4000 XP)   | Adept              | Reflects defensive combat techniques, including blocking, parrying, and minimizing damage during engagements. Dampened three levels down; true growth continues at 1.5x multiplier.           |
+| **Martial Prowess (Offensive)** | Expert (1670/2000 XP)   | Competent          | Represents offensive combat skills, emphasizing precise strikes, effective weapon use, and maximizing damage output. Dampened three levels down; true growth continues at 1.5x multiplier.           |
+| **Mobility**              | Expert (1230/2000 XP)  | Competent          | Combines speed and agility, crucial for dodging attacks, repositioning in combat, and executing acrobatic maneuvers. Dampened three levels down; true growth continues at 1.5x multiplier.           |
+| **Situational Awareness** | Expert (1010/2000 XP)    | Expert             | Enhances Gatz's ability to assess his surroundings, anticipate enemy moves, and adapt to changing scenarios in battle. Not dampened; true growth unaffected.                                           |
+| **Stealth**               | Expert (1450/2000 XP)    | Competent          | Enables Gatz to move undetected, execute ambushes, and avoid detection in both combat and exploration. Dampened three levels down; hidden progress enhanced by 1.5x multiplier.        |
+| **Tactical Combat**       | Elite (2100/4000 XP)     | Adept              | Focuses on strategic decision-making during combat, such as exploiting enemy weaknesses or coordinating complex maneuvers. Dampened three levels down; true growth continues at 1.5x multiplier.           |
 
 ### Skill Mastery Calculations (aka. Leveling Up)
-- Tags: #leveling-up, #calculating-experience
+- Tags: #leveling-up, #calculating-experience, #experience
+
+Here’s a table of cumulative "XP" (aka. "experience points") to reach each mastery level. XP requirements increase exponentially to reflect the increasing difficulty of achieving higher mastery levels. Lower levels are more accessible to provide early progress, while higher levels require extraordinary effort or major milestones.
+
+| **Mastery Level**  | **Cumulative XP to Reach Level** | **Narrative Rationale** |
+|---------------------|--------------|-----------------------------------------------------|
+| **Novice**          | 0            | Starting point; little to no advantage.            |
+| **Competent**       | 50           | Represents basic proficiency.                      |
+| **Adept**           | 150          | A solid foundation with noticeable impact.         |
+| **Advanced**        | 400          | Significant expertise with situational dominance.  |
+| **Expert**          | 900          | High-level mastery, rare and impactful.            |
+| **Elite**           | 2,000        | Unmatched skill that dominates most encounters; nearly peerless in their field. |
+| **Master**          | 4,000        | Pinnacle of human expertise, near-perfect control and execution. |
+| **Grand Master**    | 8,000        | Transcendent; a living legend capable of feats that redefine what is possible. |
+
+How to calculate level up: Assign experience XP to specific types of events or actions taken during the day. XP is tied to action categories, making it easy to log and align with the narrative:
+- Combat: Defeating enemies, surviving ambushes, or using creative tactics.
+- Skill Use: Applying specific skills like Fire Magic, Tracking, or Tactical Combat.
+- Exploration: Discovering new areas, uncovering secrets, or solving puzzles.
+- Story Milestones: Completing key objectives, achieving character development moments, or making impactful decisions.
+
+Examples:
+- Small Event (e.g., defeating a minor foe): +10 XP.
+- Moderate Event (e.g., defeating a boss or solving a significant puzzle): +25 XP.
+- Major Event (e.g., Coldspire Trial or completing a chapter goal): +50 XP.
 
 #### Calculating Experience for Gatz with the Vanguard’s Core Dampener
 
 **Step 1**: Determine Base Experience Gain
--Tags: #base-experience-gain
+- Tags: #base-experience-gain
 
 Each cieli, experience gain for skills depends on the following factors:
 
